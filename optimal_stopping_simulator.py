@@ -17,7 +17,7 @@ while count < max_rolls:
 
     if num >= T:
         print(f"Roll {count}: {num} - Stop")
-        final = count
+        final = num
         break
 
     print(f"Roll {count}: {num} - Continue")
