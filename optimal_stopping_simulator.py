@@ -12,7 +12,7 @@ while count < max_rolls:
 
     if count == max_rolls:
         print(f"Roll {count}: {num} - Forced stop")
-        final = count
+        final = num
         break
 
     if num >= T:
