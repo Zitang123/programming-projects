@@ -4,8 +4,8 @@ fair_value = int(input("Enter fair value: "))
 half_spread = int(input("Enter half-spread: "))
 number_of_trades = int(input("Enter number of trades: "))
 
-bid = fair_value - 2 * half_spread
-ask = fair_value + 2 * half_spread
+bid = fair_value - half_spread
+ask = fair_value + half_spread
 
 cash = 0
 inventory = 0
